@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cameron Barber</title>
+    
+    <!-- Character set -->
+    <meta charset="utf-8">
+    
+    <!-- Bootstrap mobile tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Raleway Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    
+    <!-- MARK: Nav -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark text-light-outline text-light-outline">
+        <div class="container">
+            <!-- Title -->
+            <a class="navbar-brand" href="#">CAMERON BARBER</a>
+
+            <!-- Burger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="nav-rotate">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav text-right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav-about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav-experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav-skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav-projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nav-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    
+    <div class="container-fluid">
+
+        <!-- MARK: Main Image -->
+        <div class="main-img-container">
+            <img src="img/canary_speech.jpg" class="main-img-img" alt="Me giving a speech in Canary Wharf.">
+            <div class="main-img-centered text-light-outline">
+                <h1 class="main-img-div">
+                    NATIONAL SIR WINFRIED BISCHOFF AWARD WINNER
+                </h1>
+            </div>
+            <a href="#nav-about">
+                <div class="main-img-bottom">
+                    <i class="fas fa-chevron-down bounce text-light-outline text-white"></i>
+                </div>
+            </a>
+        </div>
+        
+        <!-- MARK: About -->
+        <span class="anchor" id="nav-about"></span>
+        <div class="general-space bg-light-grey">
+            <div class="container">
+                <h4 class="font-weight-bold border-bottom header-pages text-center">Hello, world! I'm <span class="text-light-blue">Cameron</span>, a developer and innovator.</h4>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/sailing.JPG" class="img-thumbnail mb-4 img-popup" alt="Me teaching kids to sail at Camp Greylock in America.">
+                    </div>
+                    <div class="col-md-7">
+                        Knowledgeable in computing, with industry-related experience in programming, web development and teaching during a placement year at PricewaterhouseCoopers.
+                        <br><br>
+                        Further experience in motivational public speaking, after being presented with a prestigious national award for achievements during a summer internship and volunteering.
+                        <br><br>
+                        Outside interests in home automation, pool, sailing and a variety of other watersports.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- MARK: Experience -->
+        <span class="anchor" id="nav-experience"></span>
+        <div class="general-space bg-mid-grey">
+            <div class="container">
+                <h4 class="font-weight-bold border-bottom header-pages text-center">Experience</h4>
+                <h5 class="header-pages font-weight-bold">Work</h5>
+                <div id="exp-work"></div>
+                <h5 class="header-pages font-weight-bold">Achievements</h5>
+                <div id="exp-achievements"></div>
+            </div>
+        </div>
+        <script src="js/experience.js"></script>
+        
+        <!-- MARK: Skills -->
+        <span class="anchor" id="nav-skills"></span>
+        <div class="general-space bg-light-grey">
+            <div class="container">
+                <h4 class="font-weight-bold border-bottom header-pages text-center">Skills</h4>
+                <div class="row">
+                    <div class="col-lg" id="skill-col-left">
+                    </div>
+                    <div class="col-lg" id="skill-col-right">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/skills.js"></script>
+        
+        <!-- MARK: Projects -->
+        <span class="anchor" id="nav-projects"></span>
+        <div class="general-space bg-mid-grey">
+            <div class="container" id="projects-input">
+                <h4 class="font-weight-bold border-bottom header-pages text-center">Projects</h4>
+            </div>
+        </div>
+        <script src="js/projects.js"></script>
+        
+        <!-- MARK: Contact -->
+        <span class="anchor" id="nav-contact"></span>
+        <div class="general-space bg-dark contact-general">
+            <div class="container text-center text-mid-grey">
+                <h4 class="font-weight-bold pb-3">Contact</h4>
+                <div>
+                    <a href="https://www.linkedin.com/in/camzbarber/" class="contact-link"><i class="fab fa-linkedin contact-icon"></i></a>
+                    <a href="Please-Enable-JavaScript" id="mail" class="contact-link"><i class="fas fa-envelope-square contact-icon"></i></a>
+                    <a href="https://twitter.com/CamzBarber" class="contact-link"><i class="fab fa-twitter-square contact-icon"></i></a>
+                    <a href="https://github.com/CamzBarber" class="contact-link"><i class="fab fa-github-square contact-icon"></i></a>
+                </div>
+                <br>
+                <div class="text-muted">© 2018 Cameron Barber</div>
+            </div>
+        </div>
+        
+                                
+    </div>
+    
+    <!-- Image Popup -->
+    <div id="modal" class="modal">
+        <!-- The Close Button -->
+        <span class="modal-close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modal-img" src="" alt="Expanded image">
+        <!-- Modal Caption (Image Text) -->
+        <div id="modal-caption"></div>
+    </div>
+    
+    <!-- My JavaScript -->
+    <script src="js/main.js"></script>   
+</body>
+</html>
