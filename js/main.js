@@ -1,7 +1,30 @@
+// MARK: Add message to console
 console.log("%c \u{1F440} Looking for my code are we? Why not drop me an email? \u{1F4E7}", "font-size: 28px;")
 
+// MARK: Add Mail Link
 document.getElementById("mail").href = "ma" + "ilto:Cam" + "zBarber" + "@" + "live.com"; // attempt to scare off the bots
 
+// MARK: Main image optimising
+(() => {
+    'use strict';
+    // Page is loaded
+    const objects = document.getElementsByClassName('asyncImage');
+    Array.from(objects).map((item) => {
+        // Start loading image
+        const img = new Image();
+        img.src = item.dataset.src;
+        // Once image is loaded replace the src of the HTML element
+        img.onload = () => {
+            item.classList.remove('asyncImage');
+            return item.nodeName === 'IMG' ? 
+                item.src = item.dataset.src :        
+            item.style.backgroundImage = `url(${item.dataset.src})`;
+        };
+    });
+})();
+
+
+// MARK: Navbar
 function navbarColour() {
     var $nav = $(".fixed-top");
     // .toggleClass turns on/off depending on condition
@@ -18,8 +41,7 @@ $(function () {
 navbarColour(); // fixes the navbar on first load with an anchor
 
 
-
-
+// MARK: Rotate Burger Menu
 
 var rotated = false;
 
@@ -35,7 +57,7 @@ document.getElementById('nav-rotate').onclick = function() {
     rotated = !rotated;
 }
 
-
+// MARK: Smooth scrolling
 // Select all links with hashes
 $('a[href*="#"]')
     // Remove links that don't actually link to anything
@@ -76,19 +98,19 @@ $('a[href*="#"]')
 
 
 
-// Collapse Navbar on click
+// MARK: Collapse Navbar on click
 $('.navbar a').on('click', function(){
     $('.navbar-collapse').collapse('hide'); 
 });
 
 
-// Tooltip intialiser
+// MARK: Tooltip intialiser
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
 
-// Popup for clickable images
+// MARK: Popup for clickable images
 var modal = document.getElementById('modal');
 
 document.getElementsByClassName("modal-close")[0].onclick = function() { 
