@@ -123,7 +123,7 @@ button.navbar-toggler:focus { /* removes outline from Bootstrap */
     -webkit-animation: bounce 3s infinite;
     animation: bounce 3s infinite;
     position: absolute;
-    bottom: 8px;
+    bottom: 35px;
 }
 
 @-moz-keyframes bounce {
