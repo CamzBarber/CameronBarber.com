@@ -54,7 +54,8 @@ for (var i = 0; i < skills_json.skills.length; i++) {
 
     // DOM: Skill Name
     var domSkill = document.createElement("div");
-    domSkill.className = "col my-auto";
+    domSkill.className = "col my-auto ml-1";
+    domSkill.style = "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;";
     domSkill.innerHTML = obj["skill"];
     domCont.appendChild(domSkill);
 
