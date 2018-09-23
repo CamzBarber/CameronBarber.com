@@ -1,36 +1,6 @@
 // Put projects in the correct order, starting with the most recent projects.
 
-/*        {"skill":"Python", "icon":"fab fa-python", "rating":5}, 
-        {"skill":"HTML5", "icon":"fab fa-html5", "rating":5}, 
-        {"skill":"CSS3", "icon":"fab fa-css3-alt", "rating":5}, 
-        {"skill":"Internet of Things", "icon":"fas fa-globe", "rating":5},
-        {"skill":"YAML", "icon":"fas fa-marker", "rating":5},
-        {"skill":"Raspberry Pi", "icon":"fas fa-chart-pie", "rating":5},
-        {"skill":"Chrome Extensions", "icon":"fab fa-chrome", "rating":5},
-        {"skill":"Google Analytics", "icon":"fab fa-google", "rating":5},
-        {"skill":"Alteryx", "icon":"fas fa-chart-area", "rating":5},
-        {"skill":"APIs", "icon":"fas fa-plug", "rating":4},
-        {"skill":"Reverse Engineering", "icon":"fas fa-wrench", "rating":4},
-        {"skill":"Postman", "icon":"fas fa-envelope", "rating":4},
-        {"skill":"JavaScript", "icon":"fab fa-js-square", "rating":4},
-        {"skill":"Python Libraries", "icon":"fas fa-book", "rating":4},
-        {"skill":"Bootstrap", "icon":"fas fa-bold", "rating":4},
-        {"skill":"MQTT", "icon":"fas fa-comments", "rating":4},
-        {"skill":"JSON", "icon":"far fa-circle", "rating":4},
-        {"skill":"Teaching", "icon":"fas fa-chalkboard-teacher", "rating":4},
-        {"skill":"Microsoft Excel", "icon":"fas fa-file-excel", "rating":4},
-        {"skill":"Microsoft Azure", "icon":"fab fa-microsoft", "rating":3},
-        {"skill":"Visual Basic", "icon":"fas fa-infinity", "rating":3},
-        {"skill":"Parallel Programming", "icon":"fas fa-code", "rating":3},
-        {"skill":"Firebase", "icon":"fas fa-fire", "rating":3},
-        {"skill":"Electronics", "icon":"fas fa-bolt", "rating":3},
-        {"skill":"NLP", "icon":"fas fa-language", "rating":3},
-        {"skill":"Agile", "icon":"fas fa-undo", "rating":3},
-        {"skill":"Lua", "icon":"fas fa-moon", "rating":2},
-        {"skill":"Java", "icon":"fab fa-java", "rating":1}
-        
-    
-        */
+
 var projects_json = {
     "projects":[
         {"name":"ChromeHome",
@@ -57,7 +27,7 @@ var projects_json = {
          "desc":"A website to help demonstrate my skills and projects I have worked on, that are not appropriate for other platforms like GitHub due to the sensitivity of the projects.",
          "img":"img/projects/site.png",
          "skills":["HTML5", "CSS3", "JavaScript", "Bootstrap", "JSON", "Google Analytics"],
-         "url":""},
+         "url":"https://github.com/CamzBarber/CameronBarber.com"},
         {"name":"Pyteryx",
          "desc":"A reverse engineered RESTful Alteryx Server API for Python. This offers additional functionality over what Alteryx's public API does. This project was worked on with a friend.",
          "img":"img/projects/pyteryx.png",
