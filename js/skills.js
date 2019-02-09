@@ -20,6 +20,7 @@ var skills_json = {
         {"skill":"JSON", "icon":"far fa-circle", "rating":4},
         {"skill":"Teaching", "icon":"fas fa-chalkboard-teacher", "rating":4},
         {"skill":"Microsoft Excel", "icon":"fas fa-file-excel", "rating":4},
+        {"skill":"XML", "icon":"far fa-file-code", "rating":3},
         {"skill":"Microsoft Azure", "icon":"fab fa-microsoft", "rating":3},
         {"skill":"Visual Basic", "icon":"fas fa-infinity", "rating":3},
         {"skill":"Parallel Programming", "icon":"fas fa-code", "rating":3},

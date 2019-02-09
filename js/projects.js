@@ -32,7 +32,12 @@ var projects_json = {
          "desc":"A reverse engineered RESTful Alteryx Server API for Python. This offers additional functionality over what Alteryx's public API does. This project was worked on with a friend.",
          "img":"img/projects/pyteryx.png",
          "skills":["Python", "Reverse Engineering", "Python Libraries", "Alteryx", "APIs"],
-         "url":"https://github.com/CamzBarber/pyteryx"}
+         "url":"https://github.com/CamzBarber/pyteryx"},
+        {"name":"Sky Moodslider",
+         "desc":"A project developed for Sky which suggests films and tv shows to watch, based on the users mood.",
+         "img":"img/projects/sky.png",
+         "skills":["HTML5", "CSS3", "JavaScript", "XML"],
+         "url":"https://github.com/CamzBarber/sky-moodslider"}
     ]
 }
 
